@@ -31,5 +31,16 @@ export async function loginUser(email, password) {
   if (!isCompare) {
     throw new Error("Username does not match password");
   }
-  const token = jwt.sign({ userId: user._id });
+  const token = jwt.sign(
+    { userId: user._id },
+    process.env.JWT_SECRET || "my_super_secret_key",
+    { expiresIn: "1h" },
+  );
+  const userWithoutPassword = { ...user };
+  delete userWithoutPassword.password;
+
+  return {
+    token,
+    user: userWithoutPassword,
+  };
 }
