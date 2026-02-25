@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Wireless Noise-Cancelling Headphones",
+    "description": "Premium over-ear headphones with active noise cancellation, 30-hour battery life, and built-in microphone. Perfect for commuting, working, or relaxing.",
+    "price": 249.99,
+    "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400",
+    "category": "electronics",
+    "stock": 34
+  },
+  {
+    "name": "Mechanical Keyboard RGB",
+    "description": "Full-size mechanical keyboard with Cherry MX Blue switches, customizable RGB backlighting, and a detachable USB-C cable. Built for typists and gamers alike.",
+    "price": 129.99,
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400",
+    "category": "electronics",
+    "stock": 52
+  },
+  {
+    "name": "Leather Weekender Bag",
+    "description": "Handcrafted full-grain leather duffle bag with brass hardware, interior laptop sleeve, and adjustable shoulder strap. Fits overhead compartments.",
+    "price": 189.00,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "category": "accessories",
+    "stock": 18
+  },
+  {
+    "name": "Cast Iron Skillet 12-Inch",
+    "description": "Pre-seasoned cast iron skillet suitable for stovetop, oven, grill, and campfire. Even heat distribution and virtually indestructible.",
+    "price": 44.95,
+    "image": "https://images.unsplash.com/photo-1585515320310-259814833e62?w=400",
+    "category": "home",
+    "stock": 73
+  },
+  {
+    "name": "Trail Running Shoes",
+    "description": "Lightweight trail runners with Vibram outsole, waterproof mesh upper, and responsive cushioning. Designed for rugged terrain and long distances.",
+    "price": 134.99,
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400",
+    "category": "sports",
+    "stock": 41
+  },
+  {
+    "name": "Ceramic Pour-Over Coffee Set",
+    "description": "Minimalist ceramic dripper with thermal carafe, reusable stainless steel filter, and bamboo stand. Brews 4 cups of clean, rich coffee.",
+    "price": 62.00,
+    "image": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=400",
+    "category": "home",
+    "stock": 29
+  },
+  {
+    "name": "Yoga Mat Pro 6mm",
+    "description": "Non-slip natural rubber yoga mat with alignment markings, carrying strap, and moisture-wicking surface. 72 x 26 inches.",
+    "price": 58.00,
+    "image": "https://images.unsplash.com/photo-1601925260368-ae2f83cf8b7f?w=400",
+    "category": "sports",
+    "stock": 65
+  },
+  {
+    "name": "Stainless Steel Water Bottle",
+    "description": "Double-wall vacuum insulated bottle. Keeps drinks cold 24 hours or hot 12 hours. BPA-free, 750ml capacity with leak-proof lid.",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400",
+    "category": "accessories",
+    "stock": 88
+  },
+  {
+    "name": "Adjustable Desk Lamp LED",
+    "description": "Architect-style LED desk lamp with 5 color temperatures, stepless dimming, USB charging port, and flexible gooseneck arm.",
+    "price": 47.50,
+    "image": "https://images.unsplash.com/photo-1507473885765-e6ed057ab6fe?w=400",
+    "category": "home",
+    "stock": 37
+  },
+  {
+    "name": "Wireless Bluetooth Speaker",
+    "description": "Portable waterproof speaker with 360-degree sound, 20-hour battery, and built-in power bank. IPX7 rated for pool and beach use.",
+    "price": 79.99,
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400",
+    "category": "electronics",
+    "stock": 46
+  },
+  {
+    "name": "Canvas Backpack",
+    "description": "Waxed canvas daypack with padded 15-inch laptop compartment, waterproof base, and vegetable-tanned leather accents. 25L capacity.",
+    "price": 94.00,
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=400",
+    "category": "accessories",
+    "stock": 22
+  },
+  {
+    "name": "Resistance Bands Set",
+    "description": "Set of 5 fabric resistance bands (light to extra heavy) with carrying pouch and exercise guide. Ideal for home workouts and physical therapy.",
+    "price": 28.99,
+    "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=400",
+    "category": "sports",
+    "stock": 110
+  }
+]
