@@ -1,16 +1,13 @@
 import { getMongoConnection } from "../config/dbConn.js";
-import { ObjectId } from 'mongodb'
+import { ObjectId } from "mongodb";
 
 const db = await getMongoConnection();
-const productCollection = db.collection("product");
+const productCollection = db.collection("products");
 
-export async function getAllProducts() { 
-    const productsArr = await productCollection.find().toArrey()
-    return productsArr
+export async function getAllProductsModel() {
+  return await productCollection.find().toArray();
 }
 
-export async function getProductById(id) {
-const product = await productCollection.findOne({_id:new ObjectId(id)});
-return product;
+export async function getProductByIdModel(id) {
+  return await productCollection.findOne({ _id: new ObjectId(id) });
 }
-

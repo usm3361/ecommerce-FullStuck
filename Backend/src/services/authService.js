@@ -1,11 +1,11 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { createUser, findUserByEmail } from "../models/userModel.js";
+import { createUserModel, findUserByEmailModel } from "../models/userModel.js";
 
 const saltRounds = 10;
 
-export async function registerUser(name, email, password) {
-  const user = await findUserByEmail(email);
+export async function registerUserService(name, email, password) {
+  const user = await findUserByEmailModel(email);
   if (!user) {
     const passwordHash = await bcrypt.hash(password, saltRounds);
 
@@ -14,7 +14,7 @@ export async function registerUser(name, email, password) {
       email,
       password: passwordHash,
     };
-    const result = await createUser(userData);
+    const result = await createUserModel(userData);
     delete userData.password;
     userData._id = result;
     return userData;
@@ -22,8 +22,8 @@ export async function registerUser(name, email, password) {
   throw new Error("This user cannot be created, this email already exists");
 }
 
-export async function loginUser(email, password) {
-  const user = await findUserByEmail(email);
+export async function loginUserService(email, password) {
+  const user = await findUserByEmailModel(email);
   if (!user) {
     throw new Error("This user is not found");
   }
