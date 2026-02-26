@@ -1,4 +1,4 @@
-import 'dotenv/config';
+import "dotenv/config";
 import { MongoClient } from "mongodb";
 
 let client;
